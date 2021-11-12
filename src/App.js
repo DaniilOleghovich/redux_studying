@@ -51,6 +51,7 @@ function App() {
                         <h1>Please type a number value</h1>
                     </div>
                 }
+
                 <div>
                     <button onClick={() => addCash(Number(prompt()))}>Add cash</button>
                     <button onClick={() => getCash(Number(prompt()))}>Get cash</button>
